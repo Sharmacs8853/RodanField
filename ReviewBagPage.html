@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Order</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/log.css">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+      .dropdown:hover .dropdown-menu {
+          display: block;
+      }
+      h4 {
+          color: #555;
+          font-size: 14px;
+          font-weight: bold;
+      }
+
+
+      #first > .pc_perks{
+    font-family: RFFontRoman;
+    font-size: 20px;
+    font-weight: normal;
+    color:  #55565a;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom:-12px;
+    padding-top: 10px;
+    display: block;
+ 
+      }
+
+      #first{
+          border: 1px solid grey;
+          display: block;
+          width:600px;
+          height: 200px;
+          margin-left: 200px;
+          margin-top: 100px;
+          align-items: center;
+          text-align: center;
+          box-sizing: border-box;
+          background-color: #F7F7F7;
+          border-radius: 5px;
+      }
+      #first>p{
+          font-size: 12px;
+          margin-top: -2px;
+      }
+
+      h1{
+    font-family: RFFontRoman;
+    font-size: 30px;
+    font-weight: normal;
+    color: #222;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom:-12px;
+    margin-top: 100px;
+    display: block;
+      }
+a{
+    display: block;
+}
+
+#btn{
+       background: black;
+       color:white;
+       margin: 5px 0px 0px;
+       padding:7px 70px 7px 70px;  
+       border-radius: 4px;
+       font-size: 10px;
+       
+    }
+
+    #best{
+        border: 1px solid grey;
+          display: block;
+          width:600px;
+          height: 350px;
+          margin-left: 200px;
+          margin-top: 40px;
+          align-items: center;
+          text-align: center;
+          box-sizing: border-box;
+          background-color: #F7F7F7;
+          border-radius: 5px;
+
+
+    }
+    #best {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto;
+    gap: 20px;
+    margin-left:200px;
+    display: block;
+    }
+    .inside > img{
+        display: block;
+        height: 200px;
+        width: 180px;
+        background-color: white;
+    }
+    .inside {
+        display: block;
+        height: 350px;
+        width: 200px;
+       
+        text-align: center;
+        
+    }
+    .inside > button{
+        display: block;
+        margin: auto;
+        font-size: 40px;
+        padding:5px;
+        padding-left: 70px;
+        padding-right: 70px;
+        background-color: white;
+    }
+    .inside > p{
+        display: block;
+       font-size: 15px;
+    }
+    .inside > button{
+        display: block;
+        font-size: 10px;
+        
+    }
+
+    #best{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 0px;
+  grid-auto-rows: repeat(1,600px);
+  grid-template-areas:
+    "a b c";
+ 
+  align-items: start;
+}
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+}
+.item3 {
+  grid-area: c;
+}
+
+#check{
+    margin-left: 900px;
+    border: 1px solid black;
+    height: 400px;
+    width:400px;
+    margin-top: -585px;
+}
+ /* #we > p{
+ display: block;
+} */
+#check >div > p{
+    display: block;
+}
+
+#eee{
+    height: 80px;
+}
+#eee >p{
+    padding-top: 10px;
+}
+#we {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+}
+#we >div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check > button{
+    padding-left: 60px;
+    padding-right: 230px;
+   align-items: center;
+    
+}
+
+#check > button{
+   font-size: 10px;
+    
+}
+#crT{
+    width: 600px;
+    height: auto;
+    margin-left: 200px;
+    border: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+}
+#crt> div{
+    
+    justify-content: space-between;
+}
+#crT > div > img  p{
+    display: block;
+}
+#btnchek{
+    display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+ #btn,#btnchek{
+    justify-content: center;
+  align-items: center;
+  width: 95%;
+  color: white;
+  background-color: #1c2938;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  letter-spacing:1px;
+  margin:2%;
+ }
+
+
+
+
+
+  </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+          <div class="box1">
+            <p>
+              Take 15% off (up to $20 savings) the first time you pay with Klarna.
+              <a href="#"><strong>Learn more</strong></a>
+            </p>
+          </div>
+  <div class="box2">
+            <div>
+              <a href="FindConsultant.html" target="blank" class="logo size"
+                >find a consultant</a
+              >
+            </div>
+            <div>  
+              <a href="index.html">
+                <img
+                  src="https://www.rodanandfields.com/en-us/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA"
+                  alt=""/>
+              </a>
+            </div>
+            <!-- <div class="menu_box">
+             -->
+          <!-- <div><span class="size">Search</span><i class="fa-solid fa-magnifying-glass"></i></div>
+              <div><a href="Login.html"><span class="size">Sing in<i class="fa-solid fa-user"></i></a></div>
+              <div><span class="size">English</span><i class="fa-solid fa-flag-usa"></i></div>
+           </div>
+          </div> -->
+  
+        <!-- <div class="box3" id="box3">
+            <div class="child-box">
+              <div><a href="#" class="logo size">shop</a></div>
+              <div><a href="#" class="logo size">Best selling</a></div>
+              <div><a href="#" class="logo size">Featured</a></div>
+              <div><a href="#" class="logo size">Our story</a></div>
+              <div><a href="perks.html" class="logo size">perks program</a></div>
+              <div><a href="#" class="logo size">become a consultant</a></div>
+              <div><a href="blogpage.html" class="logo size">blog</a></div>
+            </div>
+          </div> -->
+  
+          <div class="menu_box">
+              <ul class="nav nav-pills">
+                  <span class="span-tag" >Search<i class="fa-solid fa-magnifying-glass"></i></span>
+                  <!-- <span class="size span-tag">Search <i class="fa-solid fa-magnifying-glass"></i></span> -->
+                  <li class="nav-item dropdow">
+                      <!-- <a id="login"><span id="blog"  class="nav-link" data-bs-toggle="dropdown">Sing in<i class="fa-solid fa-user"></i></a> -->
+                          <a id="login" class="nav-log size" data-bs-toggle="dropdown">Sign In<i class="fa-solid fa-user"></i></a>
+                          <ul class="dropdown-menu">
+                              <div id="form">
+                                  <form>
+                                      <label>Email</label><br />
+                                      <input type="text" id="email" /><br />
+                                      <label>Password</label>
+                                      <a href="#" id="forgot">Forgot Password?</a><br />
+                                      <input type="password" id="pass" /><br />
+                                      <div id="term">
+                                          <p>This site is protected by reCAPTCHA and the</p>
+                                          <a href="#">Google Privacy Policy</a> <p>&nbsp;and</p>
+                                
+                                          <a href="#">Terms of Service</a><p> &nbsp;apply</p>
+                                        
+                                      </div>
+                                
+                                      <input type="submit" id="submit" value="SIGN  IN" />
+                                    </form>
+                          </div>
+                   </ul>
+                   <span class="size span-tag">English</span><i class="fa-solid fa-flag-usa"></i>
+                  </li>
+              </ul>  
+          </div>
+          
+        </div>
+      </header>
+  <!-- drop nav -->
+  <div id="nav_section" style="background-color: white;">
+    <div id="nav-container">
+        <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="link" style="color: #404142;">shop</a>
+                    <ul class="dropdown-menu" style="margin-top: 45px;">
+                        <div style="display: flex; margin-right: 400px; float:inherit;">
+                            <div class="navbarOfdrop">
+                                <li><a class="dropdown-item " href="#"><bold>SHOP BY CATAGORY</bold></a></li><br>
+                                <li><a class="dropdown-item" href="#">Relimens</a></li>
+                                <li><a class="dropdown-item" href="#">Face Serums</a></li>
+                                <li><a class="dropdown-item" href="#">Eye, Lips & Lashes</a></li>
+                                <li><a class="dropdown-item" href="#">Face Marks</a></li>
+                                <li><a class="dropdown-item" href="#">Dermacosmetics</a></li>
+                                <li><a class="dropdown-item" href="#">Hand & Body</a></li>
+                                <li><a class="dropdown-item" href="#">Sun Protection</a></li>
+                                <li><a class="dropdown-item" href="#">Pro Skincare Tools</a></li>
+                                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Special Offers</a></li>
+                            </div>
+                            <div class="navbarOfdrop">
+                                <li><a class="dropdown-item" href="#"><bold>SHOP BY CONCERN</bold></a></li><br>
+                                <li><a class="dropdown-item" href="#">Life lines & Deep Wrinkles</a></li>
+                                <li><a class="dropdown-item" href="#">Lifting & Firming</a></li>
+                                <li><a class="dropdown-item" href="#">Dull & Tired Skin</a></li>
+                                <li><a class="dropdown-item" href="#">Acne & Breakouts</a></li>
+                                <li><a class="dropdown-item" href="#">Teen Acne</a></li>
+                                <li><a class="dropdown-item" href="#">Uneven Tone & Brown Spots</a></li>
+                                <li><a class="dropdown-item" href="#">Sensitivity/Visible Redness</a></li>
+                                <li><a class="dropdown-item" href="#">Pores & Blckheads</a></li>
+                                <li><a class="dropdown-item" href="#">Dry Skin</a></li>
+                            </div>
+                            <div>
+                                <li><a class="dropdown-item" href="#"><bold> SHOP BY PRODUCT LINE</bold></a></li><br>
+                                <li><a class="dropdown-item" href="#">Redefine</a></li>
+                                <li><a class="dropdown-item" href="#">Reverse</a></li>
+                                <li><a class="dropdown-item" href="#">Recharge</a></li>
+                                <li><a class="dropdown-item" href="#">Unblemish</a></li>
+                                <li><a class="dropdown-item" href="#">Soothe</a></li>
+                                <li><a class="dropdown-item" href="#">Enhancements</a></li>
+                                <li><a class="dropdown-item" href="#">Essentials</a></li>
+                                <li><a class="dropdown-item" href="#">Dermacosmetics</a></li>
+                                <li><a class="dropdown-item" href="#">Pro Skincare Tools</a></li>
+                                <li><a class="dropdown-item" href="#">All products</a></li>
+                            </div>
+                        </div>
+                    </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="bestseller.html" class="nav-link" id="blog">Best Sellers</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="link" style="color: #404142;">Featured</a>
+                <ul class="dropdown-menu" style="margin-top: 45px;">
+                    <div style="display: flex;  margin-right: 400px; float:inherit;">
+                        <div>
+                            <li><a class="dropdown-item" href="Special-offers.html">Special Offers</a></li>
+                            <li><a class="dropdown-item" href="#">New Total RF Serum</a></li>
+                            <li><a class="dropdown-item" href="#">Spotless For Teen</a></li>
+                            <li><a class="dropdown-item" href="Self_care.html">Self-Care Essentials</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#" role="link" style="color: #404142;">Our story</a>
+                    <ul class="dropdown-menu" style="margin-top: 45px;">
+                        <div style="display: flex; margin-right: 400px; float:inherit;">
+                            <div>
+                                <li><a class="dropdown-item" href="#">R+F Differenace</a></li>
+                                <li><a class="dropdown-item" href="#">Personalized Service</a></li>
+                                <li><a class="dropdown-item" href="#">Explore Our Regimens</a></li>
+                                <li><a class="dropdown-item" href="#">Our Founders</a></li>
+                                <li><a class="dropdown-item" href="#">Our Impacts</a></li>
+                            </div>
+                        </div>
+                    </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="perks.html"  style="color: #404142;">perks
+                 program</a>
+                 <ul >
+                     <div style="display: flex; margin-right: 0px; float:inherit;">
+                     </div>
+                 </ul>
+          </li>
+  
+         <li class="nav-item dropdown">
+             <a class="nav-link" data-bs-toggle="dropdown" href="#" role="link" style="color: #404142;">become a
+                 consultant</a>
+                 <ul >
+                     <div style="display: flex; margin-right: 0px; float:inherit;">
+                     </div>
+                 </ul>       
+         </li>
+         <li class="nav-item dropdown">
+             <a href="blogpage.html"  id="blog" class="nav-link">Blog</a>
+             <ul >
+                 <div style="display: flex; margin-right: 0px; float:inherit;">
+                 </div>
+             </ul>
+         </li>
+      
+        </ul>
+    </div>
+  </div>
+
+
+    <h1>REVIEW YOUR BAG</h1>  
+    <div id="first">
+        <p class="pc_perks">PC PERKS</p>
+        <br>
+        <p>Subscribe & Save $107.00!</p>
+       <p> Join PC Perks for $19.95 to Save 10% + Get Free Shipping on orders $80+</p>
+       <a href="https://www.rodanandfields.com/en-us/cart#">view more</a>
+       <div id="box"><button id="btn">ADD MEMBERSHIP -$19.95</button></div>
+
+    </div>
+    <div id="crT"></div>
+
+    <div id="best">
+        <!-- <p>BESTSELLER</p> -->
+<div class="inside" id="item1">
+    <img src="https://www.rodanandfields.com/en-us/medias/AAEY015-458x458.jpg?context=bWFzdGVyfGltYWdlc3wxMDQ2OHxpbWFnZS9qcGVnfGltYWdlcy9oMDYvaDljLzEzOTc3NTQ0NDI1NTAyLmpwZ3xiNzQ3NjJkOWU1Y2QxOWM5ZDQ4ZGQzZDA1ZjdkNzBhZmRhMjdkYzE5MTU0MWZiZjY5MDc3NzEyMjBkM2E1YThj">
+    <p>REDEFINE Multi-Function</p> <p>Eye Cream</p>
+    <button>ADD TO BAG -$70</button>
+</div>
+<div class="inside" id="item2">
+    <img src="https://www.rodanandfields.com/en-us/medias/ENHLSH01-458x458.jpg?context=bWFzdGVyfGltYWdlc3w0MDkxfGltYWdlL2pwZWd8aW1hZ2VzL2gzNS9oODgvMTM5Nzc1NDQ2ODc2NDYuanBnfDlmYTEwMTFkMjFiNzMwYjlhNjU0NTNiYjU5ZDBmMGY3ZWIzNmNiZmYwMTJhMGYzMTFkMzA1ODhkOGI1MjdlMmE">
+    <p>R + F Lash Boost</p>
+    <br>
+    <button>ADD TO BAG -$155</button>
+
+</div>
+<div class="inside" id="item3">
+    <img src="https://www.rodanandfields.com/en-us/medias/ENHEFG1-570x570-Desktop.png?context=bWFzdGVyfGltYWdlc3wyMjI3N3xpbWFnZS9wbmd8aW1hZ2VzL2g2NS9oYjUvMTQ1MzIxNjY4MTE2NzgucG5nfGNhNTQzZTUyNmU3NTMxZjAxZTc5NThjMmQ3MzU0YzVkNTY1OTExMThjNWEyMDBiYTIwMTFhNWM1Yzk4YTk3ODI">
+    <p>Active Hydration Serum</p>
+    <br>
+    <button>ADD TO BAG -$12</button>
+</div>
+    </div>
+
+
+    <div id="check">
+<div id="eee">
+    <h3>ORDER SUMMARY</h3>
+</div>
+
+        <div id="we">
+            <div> <p>SUBTOTAL</p></div>
+           
+            <div id="ty">total</div>
+        </div>
+        
+        <div id="we">
+            <div><p>SHIPPING</p></div>  
+        <div><p>Calculated At Checkout</p></div>    
+        </div>
+
+        <hr>
+        <div id="we">
+            <div> <p>Estimated Total</p></div>
+           
+            <div id="tj">total</div>
+        </div>
+      
+     <p> Save up to $20 the first time you pay with Klarna. </p>
+
+     <button id="btnchek">SECURE CHECKOUT</button>
+     <p id="no"></p>
+
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="footer" id="footerId">
+        <div>
+            <ul class="size">
+                <li>
+                    <h4>About R+F</h4>
+                </li>
+                <li>Press Room</li>
+                <li>Company Info</li>
+                <li>Executive Team</li>
+                <li>Careers</li>
+                <li>R+F Recycling Program</li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="size">
+                <li>
+                    <h4>help</h4>
+                </li>
+                <li>Product & Help Center</li>
+                <li>Shipping</li>
+                <li>Satisfaction Guarantee</li>
+                <li>Promotional&nbsp;erms&nbsp;&&nbsp;Conditions</li>
+                <li>R+F FAQS</li>
+                <li>Klarna</li>
+                <li>Site Map</li>
+            </ul>
+        </div>
+        <div></div>
+        <div>
+            <h3 class="title2">Let's get Social</h3>
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+    
+        </div>
+    </div>
+    <br>
+    <!-- ============footer end ============-->
+    <!-- =============copyright start ===== -->
+    <div class="cpoyright">
+        <div><span>© 2022 Rodan & FieldsPrivacy Policy</span></div>
+        <div><span>Terms & Conditions</span></div>
+        <div><span>Accessibility</span></div>
+        <div><span>California Supply Chains Act</span></div>
+        <div>DSA Code of Ethics</div>
+        <div><span>Disclaimer</span></div>
+        <div>Preference Center</div>
+    </div>
+    <!-- ========copyright end============ -->
+    <br><br>
+  
+</body>
+</html>
+
+<script>
+
+var cartData = JSON.parse(localStorage.getItem("cart"));
+console.log(cartData);
+
+cartData.map(function (elem, index) {
+    var box = document.createElement("div");
+    box.style.justifyContent="center";
+    var img = document.createElement("img");
+    img.src = elem.image;
+    img.style.height="60px";
+    img.style.width="60px";
+    img.style.display="block";
+
+    var name = document.createElement("p");
+    name.textContent = elem.product;
+   
+
+    var price = document.createElement("p");
+    price.innerText = elem.price;
+
+    var btn = document.createElement("button");
+    btn.innerText = "-";
+    btn.style.padding="4px";
+
+
+    btn.addEventListener("click", function () {
+      removeItem(elem, index);
+    });
+
+    box.append(img, name, price, btn);
+
+    document.querySelector("#crT").append(box);
+  });
+
+  function removeItem(elem, index) {
+    console.log(elem, index);
+    cartData.splice(index, 1);
+    console.log(cartData);
+    localStorage.setItem("cart", JSON.stringify(cartData));
+    window.location.reload();
+  }
+  
+
+  var total = cartData.reduce(function (sum, elem, index, arr) {
+    return sum+=Number(elem.price.slice(1));
+  }, 0);
+
+  console.log(total);
+ 
+  document.querySelector(
+    "#ty "
+  ).innerText ='$'+total;
+
+
+  
+  var total1 = cartData.reduce(function (sum, elem, index, arr) {
+    return sum+=Number(elem.price.slice(1));
+  }, 0);
+
+  console.log(total1);
+ 
+  document.querySelector(
+    "#tj "
+  ).innerText ='$'+total1;
+  var total1= +total1;
+  var total_price=[];
+  total_price.push('$'+total1);
+
+//   copy this localStorage
+  localStorage.setItem("total_price",JSON.stringify('$'+total1))  
+  console.log(total_price)
+
+  
+</script>

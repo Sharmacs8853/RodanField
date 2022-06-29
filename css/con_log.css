@@ -1,0 +1,195 @@
+#consultant,
+.cons {
+  text-align: center;
+  font-family: serif;
+  margin-top: 3%;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 38px;
+  color: #222222;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+}
+.menu_box > div>a {
+  color: black;
+}
+#info,
+.info2 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 34px;
+  color: #222222;
+  font-size: 18px;
+}
+
+#content {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto, 200px);
+  gap: 35px;
+}
+#content > div {
+  margin-top: 8%;
+  height: 280px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#content div > h1 {
+  margin-top: 7%;
+  font-size: 18px;
+  line-height: 26px;
+}
+.info2 {
+  font-size: 14px;
+  line-height: 24px;
+  width: 70%;
+  letter-spacing: 0.7px;
+}
+#name,
+#zip_code {
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 30px;
+  width: 80%;
+  border: none;
+  border-bottom: solid 0.1rem #9a9a9a;
+}
+input:focus {
+  outline: none;
+}
+#content button {
+  width: 80%;
+  margin: 8%;
+  margin-top:5%;
+  height: 45px;
+  letter-spacing: 0.1rem;
+  color: white;
+  border: none;
+  background-color: #222222;
+}
+
+button:hover {
+  cursor: pointer;
+}
+#con2 button {
+  color: #222222;
+  background-color: white;
+  border: 1px solid #222222;
+}
+@media only screen and (min-width: 60px) and (max-width: 420px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  #info {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    line-height: 1.5rem;
+  }
+  #content > div {
+    box-shadow: none;
+    width: 100%;
+    /* border-bottom: solid 0.1rem #9a9a9a; */
+  }
+  #content div > p {
+    width: 95%;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 22px;
+  }
+  /* #box1,#box2 {
+   border-bottom:1 px solid #8a8a8a;
+  } */
+  #name,
+  #zip_code,
+  button {
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  p {
+    width: 60%;
+    line-height: 26px;
+    letter-spacing: 1px;
+  }
+}
+/* //consultant end */
+
+/* login css start */
+
+/* a */
+label,
+label + a {
+  font-size: 10px;
+  color: #8a8a8a;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+}
+label a {
+  text-decoration: none;
+  color: blue;
+}
+form {
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#email,
+#pass {
+  box-sizing: border-box;
+  width: 90%;
+  height: 40px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#forgot {
+  align-items: end;
+  margin-left: 40%;
+}
+#submit {
+  width: 90%;
+  margin: 25px 10px;
+  height: 40px;
+  letter-spacing: 0.1rem;
+  background-color: #222222;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+#term p {
+  display: inline;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+#term {
+  width: 90%;
+  margin: auto;
+  margin-top: 4%;
+  line-height: 16px;
+}
+#term > a {
+  text-decoration: underline;
+  font-size: 14px;
+  word-spacing: none;
+}

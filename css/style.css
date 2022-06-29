@@ -1,0 +1,548 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: HCoGothamSSmRegular, Arial, Sans-Serif;
+}
+.header {
+  overflow: hidden;
+}
+
+/* code by dipak */
+.box2 a {
+  text-decoration: none;
+}
+#menu_box{
+  width: 250px;
+}
+.menu_box > div > a {
+  color: black;
+}
+.box2 a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#blog,#login{
+    color: #404142;
+}
+/* end */
+.box1 {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: #f7f4f2;
+  color: #55565a;
+}
+.box1 > p {
+  letter-spacing: 0.6px;
+  font-size: 1rem;
+  font-weight: 0.5px;
+}
+strong {
+  color: #55565a;
+  text-decoration: underline;
+}
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  padding-top: 20px;
+  border-bottom: 0.4px solid #272829;
+}
+.box2 > div {
+  height: 30px;
+  width: 200px;
+  /* border: 0.5px solid red; */
+}
+i{
+  margin-left:1px;;
+}
+.menu_box {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  text-transform: uppercase;
+  color: #272829;
+  /* word-spacing: 1.5px; */
+}
+.size {
+  letter-spacing: 0.6px;
+  font-size: 0.9rem;
+  font-weight: 0.9px;
+  word-spacing: 1.2px;
+}
+h4 {
+  color: #555;
+  font-size: 10px;
+}
+.box3 {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  padding: 10px;
+}
+/*========================== nav_section =======================*/
+/* .dropdown-menu{
+    text-transform: uppercase;
+} */
+.nav-link {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.6px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  word-spacing: 1.5px;
+}
+
+
+
+ 
+.nav-link::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+
+  bottom: -10px;
+  transition: 0.5s;
+  }
+  
+  .nav-link:hover::after {
+  width:100%;
+  }
+
+
+.dropdown-item {
+  color: #272829;
+  letter-spacing: 0.6px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  word-spacing: 1.5px;
+}
+#nav_section {
+  display: block;
+  position: sticky !important;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+#nav-container {
+  width: 80%;
+  margin: auto;
+  height: 20px;
+  margin-left: 15%;
+  /* border: 1px solid rebeccapurple; */
+}
+.list-inline {
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px auto 10px auto; */
+}
+.list-inline > li {
+  float: left;
+  width: auto;
+  list-style: outside none none;
+  text-transform: uppercase;
+
+  /* padding: 1%; */
+}
+.list-inline > li > a {
+  text-decoration: none;
+  color: #55565a;
+  font-size: 14px;
+}
+.dropdown {
+  position: relative;
+  display: flex;
+}
+
+#footerId{
+  margin-top:7%;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  /* display: block; */
+  overflow: visible;
+  z-index: 1;
+  /* position: inherit; */
+  /* margin-top: 10%; */
+}
+.list-style2 > li > a {
+  text-decoration: none;
+  color: black;
+}
+#submenu {
+  float: left;
+  padding: 10px;
+}
+/* ======================end========================== */
+.child-box {
+  width: 70%;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  /* margin-top: 400px; */
+  background-image: url(https://www.rodanandfields.com/en-us/medias/22-HP-PC-Perks-Desktop.gif?context=bWFzdGVyfHJvb3R8NTkxMzczfGltYWdlL2dpZnxoZDIvaGYwLzE0ODU2NzM0MjEyMTI2LmdpZnw5MjEwMzI1YjAyODNiYzgwMDdhMTI5OGQ0YjA1MjlhZTg2ZjE0ODJlNDZjNTUwZDg2YTQ2MzFkMmMxMTRkZjAx);
+  min-height: 500px;
+  width: 100%;
+}
+.banner-text {
+  height: 400px;
+  width: 400px;
+  padding: 30px 20px 20px 50px;
+}
+.top-left {
+  /* position: relative; */
+  top: 8px;
+  left: 16px;
+  /* margin-top: 300px; */
+}
+.title1 {
+  font-family: Bell MT;
+  font-size: 40px;
+  font-weight: 100;
+  color: #222;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  max-width: none;
+}
+.title2 {
+  font-family: Bell MT;
+  font-size: 30px;
+  font-weight: 100;
+  color: #222;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  max-width: none;
+}
+.subtext {
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  max-width: 34rem;
+}
+.subcontent {
+  font-size: 13px;
+  font-weight: 400;
+  color: #55565a;
+  line-height: 1.3;
+  letter-spacing: 0.8px;
+  margin-top: 1.6rem;
+  order: 5;
+  max-width: 34rem;
+}
+.subcontent > a {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #55565a;
+  text-decoration: underline;
+}
+.btn-shopnow {
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  color: #222;
+  border: 0.5px solid #222;
+  text-transform: uppercase;
+  word-spacing: 2.5px;
+  letter-spacing: 0.6px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+img {
+  width: 100%;
+}
+.big-box {
+  height: 420;
+  background-color: #f7f4ef;
+}
+.scroll-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 30px;
+  overflow-x: scroll;
+}
+.scroll-bar > div {
+  height: 600px;
+  width: 400px;
+  /* border: 1px solid red; */
+}
+.scroll-bar-1 {
+  display: flex;
+  flex-direction: column;
+}
+.scroll-bar-1 > div :nth-child(1) {
+  height: 50%;
+  width: 100%;
+}
+.scroll-bar-1 > div :nth-child(2) {
+  height: 50%;
+  width: 100%;
+}
+.scroll-bar-1-content {
+  padding: 50px;
+}
+.scroll-item {
+  background-color: white;
+  padding-bottom: 30px;
+  padding: 10px;
+}
+.scroll-item > div {
+  margin-top: 30px;
+}
+.scroll-item > img {
+  padding: 0px 40px 2px 40px;
+}
+.addproduct {
+  height: 650px;
+  width: 100%;
+  background-color: #f8f4f2;
+}
+.addproduct-title {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 70px;
+}
+.addproduct-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  padding: 80px 20px 40px 20px;
+  gap: 20px;
+}
+.addproduct-items > div {
+  /* padding-top: 100px; */
+  height: 280px;
+  width: 200px;
+  /* border: 1px solid yellow; */
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.img {
+  border-radius: 7px;
+  padding: 5px;
+}
+.slider2 {
+  display: flex;
+  /* flex-direction: row;
+      width: 100%;
+      justify-content: space-evenly; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow-x: scroll;
+}
+.slider2-box {
+  flex: 1;
+  height: 330px;
+  width: 660px;
+  /* padding-left: 10px; */
+  /* margin:auto; */
+  margin-left: 10px;
+  /* padding-right: 10px; */
+  /* border: 1px solid red;
+    border-radius: 8px; */
+}
+.slider2-box {
+  display: flex;
+}
+.slider2-box > div {
+  /* border: 1px solid yellow; */
+  height: 100%;
+  width: 320px;
+}
+.big-box3 {
+  height: 600px;
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+}
+.big-box3-sub {
+  padding: 100px 30px 100px 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 400px);
+  gap: 110px;
+}
+.big-box3-sub > div {
+  /* border: 1px solid yellow; */
+  text-align: center;
+}
+.big-box3-sub > div > img + div {
+  padding: 27px;
+  line-height: 23px;
+}
+.scroll-bar2 {
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: scroll;
+}
+.scroll-bar2 > div {
+  flex: 1;
+  margin-left: 15px;
+  margin-top: 15px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  /* height: 250px;
+      width: 300px;
+      border: 0.2px solid red; */
+}
+.scroll-bar2 img {
+  width: 250px;
+  height: 260px;
+  border-radius: 5px;
+}
+.big-box4 {
+  height: 180px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 40px;
+  background-color: #e1eaf1;
+}
+.big-box4-inner {
+  display: flex;
+  width: 90%;
+  padding-top: 10px;
+  justify-content: space-around;
+  height: 100px;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+  margin: auto;
+  background-color: white;
+}
+.big-box4-inner > div {
+  /* padding: 10px; */
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.2px solid #acadaf;
+  border-bottom: 0.04px solid #acadaf;
+}
+.footer > div {
+  height: auto;
+  width: 23%;
+  /* border: 0.5px solid yellow; */
+  padding: 40px 10px 40px 10px;
+}
+.footer :nth-child(4) {
+  width: 35%;
+  padding-right: 100px;
+}
+.footer > div ul {
+  line-height: 34px;
+  color: #55565a;
+  text-decoration: none;
+  font-size: 13px;
+  list-style: none;
+}
+.footer > div ul li {
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+.social {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  gap: 60px;
+  /* border: 1px solid rebeccapurple; */
+}
+.social > i {
+  /* margin-top: 30px;
+    margin-right: 40px; */
+  /* margin-left: 30px; */
+  font-size: 20px;
+}
+.cpoyright {
+  display: flex;
+}
+.cpoyright > div {
+  margin-left: 10px;
+  border-right: 2px solid #555;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(44, 44, 44);
+}
+#img1{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Acne-Breakouts-Card.jpg?context=bWFzdGVyfHJvb3R8NjU4Mjd8aW1hZ2UvanBlZ3xoMTEvaDJhLzEyODg5MTg4MjcwMTEwLmpwZ3wxMTg2NjQ4NjM0Y2QyZDY4MDdmZDU4ZmI0ZDkxMTlhM2UxMDgyYTFkMGVkOWMzMTBkYzY3ZTJmNGEzNzVlZDhm);
+}
+#img1:hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-1.png?context=bWFzdGVyfHJvb3R8MzcxNDI1fGltYWdlL3BuZ3xoOGIvaDJiLzEzOTAwNTk3MTMzMzQyLnBuZ3w5NTMwMDY2NDkxOTRmNDI1Mjc5ZjIyOTYxYjUyZTFiNDkyNDZhODZmNTJlZmQ4ZjU4NzBmZjI2NzFiMzhmZTMy);
+}
+
+#img2{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Fine-Lines-Wrinkles-Card.jpg?context=bWFzdGVyfHJvb3R8NTgzMDF8aW1hZ2UvanBlZ3xoODYvaGY2LzEyODg5MTg4MjA0NTc0LmpwZ3wzYjIwYmU0ZWI3NWZkYjFmNzJjNjVmZWNhYmJmN2RlODdjYjFmNTU0ODZjZWE0YjQ5NWIzNWQzYmQyN2UxZjli);
+}
+#img2:hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-2.png?context=bWFzdGVyfHJvb3R8Mzg1Mjk1fGltYWdlL3BuZ3xoOGUvaGI2LzEzOTAwNTk3MTk4ODc4LnBuZ3xmYzY3MThiYTcyZTNiMjhjNTI4MGZjNTUxMTY5OTgwNjFhMWQzM2Y0ZWQyZjJjMTUwOGEwYjBmM2Y1NjVlMTI3);
+}
+#img3{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Uneven-Tone-Brown-Spots-Card.jpg?context=bWFzdGVyfHJvb3R8NTc4OTV8aW1hZ2UvanBlZ3xoY2UvaDY0LzEyODg5MTg4MzM1NjQ2LmpwZ3w0ZjUyN2U3MWE1YzYwNmNmYzgxZTQ3MTAxNmU3ZGIyNjA4NmU1MTQ2Mjc4NWU2NWRhOTFmNDU3NGRmNmI0MDFi);
+}
+#img3:hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-3.png?context=bWFzdGVyfHJvb3R8MzU2OTI0fGltYWdlL3BuZ3xoNDMvaGJkLzEzOTAwNTk3MjY0NDE0LnBuZ3xhMWMzNDBiMGI0MWJmNjkwMDk2NDc0NGMxMjc4ZjljYzMzODYyYTRmNGUyNjFiYjZlOWZhOWM4ZmUzYTFjZmYz);
+}
+#img4{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Sensitivity-Visible-Redness-Card.jpg?context=bWFzdGVyfHJvb3R8NjE5MTd8aW1hZ2UvanBlZ3xoNTgvaGM3LzEyODg5MTg4NDAxMTgyLmpwZ3wwN2M4ZTJmMGExMDI1ZTM2MjE4M2I3MzFlZWI5NDJkZDYzZmMzMDdhMDMyNGFjODUyY2MwMWUzMDk5MDVjZWZk);
+}
+#img4:hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-4.png?context=bWFzdGVyfHJvb3R8MzEzMzg3fGltYWdlL3BuZ3xoYjIvaDMwLzEzOTAwNTk3MzI5OTUwLnBuZ3xlOGYwOTgwZmYxNWIzNGVhNjZiN2I1NGI0NWVmZTFhOGQwYmJlOGMzZjE5NzA4ODRjNjZlMzliZDAzZjVhNDk0);
+}
+#img5{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Dry-Skin-Card.jpg?context=bWFzdGVyfHJvb3R8NjY4Mjl8aW1hZ2UvanBlZ3xoZTkvaDJjLzEyODg5MTg4NDY2NzE4LmpwZ3w2M2M5MDI0YzI3ZTgyNDIxZmE0MTZmNGJiMWU5ZGZhZDM0NzQ3NmJhNDUxY2MyMTZjNjk4NDQ4NTAxMDk1MDNj);
+}
+#img5:hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-5.png?context=bWFzdGVyfHJvb3R8MjU0NDM1fGltYWdlL3BuZ3xoYjAvaGY4LzEzOTAwNTk3Mzk1NDg2LnBuZ3xlMmE5ZWIyN2YyYTVjZjZiZTVkZmUyZjJjODhmY2Q5MTdmMWM0NWQ1NTQ4MzFmZjM3YjUyNWI3M2NhYjI3ZTll);
+}
+#img6{
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Eyes-Lips-Lashes-Card.jpg?context=bWFzdGVyfHJvb3R8ODY2MjZ8aW1hZ2UvanBlZ3xoZjAvaGE2LzEyODg5MTg4NTMyMjU0LmpwZ3w2ZmNiOWQwNjJhNGZlYjViMjA2MDhiYTlmN2JlMDU2M2NkMmNlMzJjNzU5ZmQ5ZWQxZTRkZmEwZGY3MDBhNjgy);
+}
+#img6:hover{
+  background-image: url(https://www.rodanandfields.com/en-us/medias/Category-Image-6.png?context=bWFzdGVyfHJvb3R8Mzc1MzQ5fGltYWdlL3BuZ3xoMjEvaDdiLzEzOTAwNTk3NDYxMDIyLnBuZ3xkNjNjZjczZWMzYzM4MDIyMjA1NzIwOTgwZDM0YTU4MGIzMmY1YmZlZGM2Y2I5ODdmZWU4NDEzMjAxOTgxZGY0);
+}

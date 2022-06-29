@@ -1,0 +1,55 @@
+.img_container {
+    position: relative;
+  }
+  img {
+    width: 100%;
+  }
+  .top_left {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .top_right {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    text-align: center;
+  }
+  .top_right p:nth-child(1),
+  p:nth-child(2),
+  p:nth-child(3),
+  .beforeafter {
+    font-size: 80px;
+    font-family: GothamFont, "Arial Sans", sans-serif;
+    text-shadow: -2px 3px 0 #000;
+    -webkit-text-stroke: 1px #000;
+    color: #c29dd0;
+  }
+  #spot {
+    font-size: 20px;
+    line-height: 32px;
+    color: #604242;
+    font-weight: 100;
+    font-family: GothamFont, "Arial Sans", sans-serif;
+  }
+  
+  button {
+    padding: 20px 30px;
+    color: white;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+  }
+  #befaft {
+    background-color: black;
+  }
+  .beforeafter {
+    font-size: 60px;
+  }
+  

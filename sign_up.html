@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Offer On Skin Care |Rodan + Field</title>
+    <link rel="stylesheet" href="css/con_log.css" />
+   
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous">
+      
+  
+  </script>
+  </head>
+  <body>
+    <form>
+      <label>Email</label><br />
+      <input type="text" id="email" /><br />
+      <label>Password</label>
+      <a href="#" id="forgot">Forgot Password?</a><br />
+      <input type="password" id="pass" /><br />
+      <div id="term">
+          <p>This site is protected by reCAPTCHA and the</p>
+          <a href="#">Google Privacy Policy</a> <p>&nbsp;and</p>
+
+          <a href="#">Terms of Service</a><p> &nbsp;apply</p>
+        
+      </div>
+
+      <input type="submit" id="submit" value="SIGN  IN" />
+    </form>
+  </body>
+</html>
+
+
+<script>
+  document.querySelector("form").addEventListener("submit", signUpFun);
+
+  var userData = JSON.parse(localStorage.getItem("userCreds"))||[]
+  function signUpFun() {
+    event.preventDefault();
+
+    var userObj = {
+      email: document.querySelector("#email").value,
+      password: document.querySelector("#pass").value,
+  
+    };
+    //console.log(userObj);
+    userData.push(userObj);
+    //console.log(userData)
+    localStorage.setItem("userCreds",JSON.stringify(userData))
+    alert("sign_up done");
+    document.querySelector("#email").value="",
+  document.querySelector("#pass").value="";
+  window.location.href = "index.html";
+ 
+  }
+</script>
